@@ -1,0 +1,20 @@
+<%include ./partials/header%>
+<div id="theme_basic" class="ui main text container segment">
+<div class="ui huge header">Add Character</div>
+<form class="ui form" action="/blogs" method="POST">
+    <div class="field">
+        <label>Title</label>
+        <input type="text" name="blog[title]" placeholder="Enter the name of the character">
+    </div>
+     <div class="field">
+        <label>Image</label>
+        <input type="text" name="blog[image]" placeholder="Enter the image url">
+    </div>
+    <div class="field">
+        <label>Text</label>
+        <textarea name="blog[body]"></textarea>
+    </div>
+    <input class="ui blue big inverted button" type="submit">
+</form>
+</div>
+<%include ./partials/footer%>

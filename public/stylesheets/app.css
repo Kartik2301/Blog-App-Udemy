@@ -1,0 +1,27 @@
+i.icon {
+    font-size: 2em;
+}
+.container.main{
+    margin-top: 7em;
+}
+#delete {
+    display: inline;
+}
+.index_img{
+	
+	width: 200px;
+	height: 200px;
+	margin-right: 50px;
+    border:2px solid #021a40;
+}
+a:hover{
+  color: purple;
+}
+body{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/81%2BzEXCRtyL._SL1500_.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#theme_basic{
+    background-color:#D7CBAB;
+}
